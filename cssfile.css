@@ -1,0 +1,266 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+header {
+    background-color: rgb(36, 31, 31);
+    color: aliceblue;
+}
+
+.logo {
+    padding-top: 13px;
+    font-size: 20px;
+    color: rgb(23, 241, 3);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+ul li {
+    padding: 0 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul>li>a:hover {
+    color: gold;
+    background-color: rgb(138, 87, 87);
+    width: 100px;
+}
+
+ul>li>a:active {
+    color: gold;
+    background-color: rgb(57, 231, 130);
+}
+
+li {
+    list-style: none;
+}
+
+
+.heading {
+    color: goldenrod;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#para {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#links {
+    color: red;
+}
+
+#links:active {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.box {
+
+    background-color: beige;
+    width: 450px;
+    height: 650px;
+    border: 2px solid rgb(146, 146, 77);
+    border-radius: 15px;
+
+
+}
+
+.box2 {
+
+    padding-top: 15px;
+    background-color: rgb(245, 162, 54);
+    height: 50px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box3 {
+    background-color: rgb(214, 110, 192);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid goldenrod;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 190px;
+    padding-left: 10px;
+
+
+}
+
+.cont2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box4 {
+    background-color: rgb(204, 122, 236);
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    border: 1px solid goldenrod;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 255px;
+    height: 50px;
+
+    padding-left: 10px;
+
+
+}
+
+.cont3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    width: 75px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input:hover {
+    border: 2px solid black;
+}
+
+input[type=number] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.content {
+    padding: 12px;
+    text-align: center;
+    font-size: 23px;
+}
+
+main {
+    min-height: 150vh;
+}
+
+.but {
+
+    background-color: yellow;
+    color: brown;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.but:hover {
+    background-color: rgb(207, 243, 77);
+    color: brown;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.but:active {
+    background-color: rgb(49, 184, 49);
+    width: 170px;
+    height: 60px;
+}
+
+#resulta {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#warning {
+    color: red;
+    background-color: rgb(243, 141, 141);
+    border-radius: 10px;
+}
+
+.button {
+    padding: 16px;
+}
+
+.reset {
+    margin-left: 15px;
+    background-color: rgb(174, 187, 190);
+    font-size: 19px;
+}
+
+.reset:active {
+    background-color: rgb(62, 70, 71);
+}
+
+.foot {
+    background-color: rgb(36, 31, 31);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    padding-top: 12px;
+    height: 35px;
+}
+
+
+
+#advice {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(231, 161, 110);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:425px) {
+    .box2 {
+
+        padding-top: 15px;
+        background-color: rgb(245, 162, 54);
+        height: 75px;
+        border-radius: 9px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+}

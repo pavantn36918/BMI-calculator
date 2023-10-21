@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">PTNCREATIONS</div>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a
+                        href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/english_bmi_calculator/bmi_calculator.html">About
+                        This</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <h1 class="heading"><b>BMI CALCULATOR</b></h1>
+        <b>
+            <p id="para">BMI is a measurement of a person's health based on their height and weight.It is widely used as
+                a general indicator of whether a person has a
+                healthy
+                body weight for their height.</p>
+            <p id="para">This BMI Calculator takes height in meters.</p>
+            <P id="para">-If you want to give height in Feet: <a href="htmlfile.html" id="links">Click here</a></P>
+            <P id="para">-If you want to give height in Centimeters: <a href="centimeterhtml.html" id="links">Click
+                    here</a></P>
+            <P id="para">-If you want to give height in inches: <a href="incheshtml.html" id="links">Click here</a></P>
+        </b>
+        <hr>
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <div class="head">
+                        <h2><u>Enter the details</u></h2>
+                    </div>
+                    <form novalidate>
+                        <div class="box2">
+                            <div class="height">
+                                <label for="height"><b>Height:</b></label>
+                                <input type="number" inputmode="numeric" name="height" id="height" placeholder="in m"
+                                    required>
+                            </div>
+                            <div class="weight">
+                                <label for="weight"><b>Weight:</b></label>
+                                <input type="number" inputmode="numeric" pattern="[0-9]+" name="weight" id="weight"
+                                    placeholder="in Kg" required>
+                            </div>
+                        </div>
+                        <div>
+                            <p id="warning"></p>
+                        </div>
+                        <div class="button">
+
+                            <button type="button" class="but" onclick="bmicalc()">Calculate</button>
+                            <button type="reset" class="reset" id="resetButton">Clear</button>
+                        </div>
+
+
+                </div>
+                </form>
+                <div class="cont2">
+                    <div style="color:beige;">hi</div>
+                    <div class="box3">
+
+                        <p><b>Your BMI is:</b> </p>
+                        <b>
+                            <p id="resulta">0.0</p>
+                        </b>
+
+                    </div>
+                    <div style="color:beige;">hi</div>
+                </div>
+                <div class="cont3">
+                    <div style="color:beige;">hi</div>
+                    <div class="box4">
+
+                        <p><b>Status:</b> </p>
+                        <b>
+                            <p id="resultb">none</p>
+                        </b>
+
+                    </div>
+                    <div style="color:beige;">hi</div>
+                </div>
+                <div class="advicebox">
+                    <p id="advice"></p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="javascriptmeter.js"></script>
+    </main>
+    <footer class="foot">
+        &copy Copyrights | BMIcalculator.com | All Rights are reserved
+    </footer>
+
+</body>
+
+</html>
